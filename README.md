@@ -235,3 +235,6 @@ CREATE TABLE PrateleiraSupermercado (
     dataValidade DATETIME NOT NULL,
     FOREIGN KEY (idProduto) REFERENCES Produto(idProduto)
 );
+
+![Modelo Físico](DER.png)
+
