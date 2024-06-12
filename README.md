@@ -1,5 +1,3 @@
-# projetoIntegradoII
-
 # UNIVERSIDADE FEDERAL DO CARIRI
 ## CENTRO DE EDUCAÇÃO A DISTÂNCIA
 ### ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
@@ -235,6 +233,3 @@ CREATE TABLE PrateleiraSupermercado (
     dataValidade DATETIME NOT NULL,
     FOREIGN KEY (idProduto) REFERENCES Produto(idProduto)
 );
-
-![Modelo Físico](DER.png)
-
