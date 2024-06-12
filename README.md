@@ -234,6 +234,7 @@ CREATE TABLE PrateleiraSupermercado (
     FOREIGN KEY (idProduto) REFERENCES Produto(idProduto)
 );
 ```
+## 4 Modelo Físico
 
 ![DER](https://github.com/darlanengemec/projetoIntegradoII/blob/main/DER.png)
 
