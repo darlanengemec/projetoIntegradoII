@@ -233,3 +233,7 @@ CREATE TABLE PrateleiraSupermercado (
     dataValidade DATETIME NOT NULL,
     FOREIGN KEY (idProduto) REFERENCES Produto(idProduto)
 );
+```
+
+![DER](https://github.com/darlanengemec/projetoIntegradoII/blob/main/DER.png)
+
